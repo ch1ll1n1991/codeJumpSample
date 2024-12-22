@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+    /* 中央寄せ */
+    font-family: "Hiragino Kaku Gothic ProN";
+}
+
+header {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+}
+
+img.mainvisual {
+    width: 1280px;
+    height: 600px;
+}
+
+img.maskGroup{
+    width: 100px;
+    height: 100px;
+}
+
+img.bicycle1{
+    width: 274.4px;
+    height: 182px;
+}
+
+img.bicycle2{
+    width: 274.4px;
+    height: 182px;
+}
+
+img.bicycle3{
+    width: 274.4px;
+    height: 182px;
+}
+
+footer {
+    font-size: 8px;
+}
