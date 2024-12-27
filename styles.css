@@ -1,7 +1,10 @@
 * {
     margin: 0;
-    padding: 0;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
 
 body {
     text-align: center;
@@ -12,50 +15,100 @@ body {
 
 header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
 }
 
-.logo{
-    width: 50%;
+.wrapper {
+    margin: 0 4%;
 }
 
-.menu {
+.logo_content {
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    margin: 10px 0;
+}
+
+nav ul {
     display: flex;
-    width: 50%;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 30px;
+    cursor: pointer;
+
 }
 
 img.mainvisual {
-    width: 1280px;
+    width: 100%;
+    max-width: 1920px;
     height: 600px;
+    object-fit: cover;
 }
 
-.title_about{
-    text-decoration:underline;
+h2 {
+    display: inline-block;
+    font-size: 2rem;
+    margin-bottom: 60px;  
+    border-bottom: solid 1px #383e45;
 }
 
-img.maskGroup{
+h3{
+    display: block;
+    margin-bottom: 10px;
+}
+
+section{
+    margin-top: 80px;
+}
+
+.about_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-bottom: 100px;
+}
+
+.about_title{
+text-align: start;
+}
+
+.about_text{
+    display: block;
+    width: 398px;
+    height: 66px;
+    overflow-wrap: normal;
+    font-size: 14.4px;
+}
+
+img.maskGroup {
     width: 100px;
     height: 100px;
+    display: block;
+    margin-right: 30px;
 }
 
-.bicycle{
+.bicycle {
     display: flex;
+    justify-content: center;
+    align-items: center;  
 }
 
-img.bicycle1{
+.bicycle_intr{
+    margin-left: 17.2px;
+}
+
+img.bicycle {
     width: 274.4px;
     height: 182px;
 }
-
-img.bicycle2{
-    width: 274.4px;
-    height: 182px;
-}
-
-img.bicycle3{
-    width: 274.4px;
-    height: 182px;
-}
-
+    
 footer {
     font-size: 8px;
+    margin-top: 110px;
 }
