@@ -4,7 +4,7 @@
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 body {
     text-align: center;
@@ -54,31 +54,31 @@ img.mainvisual {
 h2 {
     display: inline-block;
     font-size: 2rem;
-    margin-bottom: 60px;  
+    margin-bottom: 60px;
     border-bottom: solid 1px #383e45;
 }
 
-h3{
+h3 {
     display: block;
     margin-bottom: 10px;
 }
 
-section{
+section {
     margin-top: 80px;
 }
 
-.about_content{
+.about_content {
     display: flex;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
     margin-bottom: 100px;
 }
 
-.about_title{
-text-align: start;
+.about_title {
+    text-align: start;
 }
 
-.about_text{
+.about_text {
     display: block;
     width: 398px;
     height: 66px;
@@ -96,19 +96,38 @@ img.maskGroup {
 .bicycle {
     display: flex;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
 }
 
-.bicycle_intr{
+.bicycle_intr {
     margin-left: 17.2px;
 }
 
 img.bicycle {
-    width: 274.4px;
-    height: 182px;
+    width: 100%;
+    height: 100%;
+    max-width: 274.4px;
+    max-height: 182px;
 }
-    
+
 footer {
     font-size: 8px;
     margin-top: 110px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    /*ここにスマホ用のCSSを記述する*/
+
+    .about_content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bicycle {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
